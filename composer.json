@@ -2,6 +2,7 @@
   "name": "alexandreo/itau-boleto",
   "description": "API Emissão, Instrução e Consulta de boletos - versão: 2.75.55",
   "license": "MIT",
+  "minimum-stability": "dev",
   "authors": [
     {
       "name": "Alexandre Oliveira",
