@@ -1,0 +1,13 @@
+/vendor
+index.php
+.phpintel/
+.phpintel/*
+.phpintel
+.idea/workspace.xml
+.idea/*
+.idea/
+server.pem
+*.pem
+docker-compose.yml
+exemples/my_registrar.php
+/exemples/my_registrar.php

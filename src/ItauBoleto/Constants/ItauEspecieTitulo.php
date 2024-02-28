@@ -1,0 +1,33 @@
+<?php
+
+namespace Alexandreo\ItauBoleto\Constants;
+
+class ItauEspecieTitulo
+{
+    const DM_DUPLICATA_MERCANTIL = '01';
+    const NP_NOTA_PROMISSORIA = '02';
+    const NS_NOTA_DE_SEGURO = '03';
+    const ME_MENSALIDADE_ESCOLAR = '04';
+    const RC_RECIBO = '05';
+    const CT_CONTRATO = '06';
+    const COSSEGUROS = '07';
+    const DS_DUPLICATA_DE_SERVICO = '08';
+    const LC_LETRA_DE_CAMBIO = '09';
+    const NOTA_DE_DEBITOS = '13';
+    const DD_DOCUMENTO_DE_DIVIDA = '15';
+    const EC_ENCARGOS_CONDOMINIAIS = '16';
+    const PRESTACAO_DE_SERVICOS = '17';
+    const BDP_BOLETO_PROPOSTA = '18';
+    const CBI_CEDULA_DE_CREDITO_BANCARIO_POR_INDICACAO = '88';
+    const CC_CONTRATO_DE_CAMBIO = '89';
+    const CCB_CEDULA_DE_CREDITO_BANCARIO = '90';
+    const CD_CONFISSAO_DE_DIVIDA = '91';
+    const CH_CHEQUE = '92';
+    const CM_CONTRATO_DE_MUTUO = '93';
+    const CPS_CONTA_DE_PRESTACAO_DE_SERVICOS = '94';
+    const DMI_DUPLICATA_DE_VENDA_MERCANTIL_POR_INDICACAO = '95';
+    const DSI_DUPLICATA_DE_PRESTACAO_DE_SERVICOS_POR_INDICACAO_DE_COMPROVANTE = '96';
+    const RA_RECIBO_DE_ALUGUEL_PARA_PESSOA_JURIDICA = '97';
+    const TA_TERMO_DE_ACORDO = '98';
+    const DIVERSOS = '99';
+}

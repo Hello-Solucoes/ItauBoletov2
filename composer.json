@@ -1,0 +1,25 @@
+{
+  "name": "alexandreo/itau-boleto",
+  "description": "API Emissão, Instrução e Consulta de boletos - versão: 2.75.55",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexandre Oliveira",
+      "email": "contato@alexandreo.com.br"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "guzzlehttp/guzzle": "^6.3",
+    "ext-json": "*",
+    "jefersondaniel/novoboletophp": "^0.5.9"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.8 || ~5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Alexandreo\\ItauBoleto\\": "src/ItauBoleto/"
+    }
+  }
+}
