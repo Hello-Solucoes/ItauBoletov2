@@ -36,7 +36,9 @@ class Client extends ClientGuzzle
             'headers' => [
                 'Content-Type' => 'application/x-www-form-urlencoded',
                 'Accept' => 'application/json'
-            ]
+            ],
+            'timeout' => 40,
+            'connect_timeout' => 40
         ]);
         $this->authenticate();
     }
