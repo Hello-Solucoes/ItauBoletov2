@@ -12,8 +12,7 @@
   "require": {
     "php": ">=7.1",
     "guzzlehttp/guzzle": "^6.3",
-    "ext-json": "*",
-    "jefersondaniel/novoboletophp": "^0.5.9"
+    "ext-json": "*"
   },
   "require-dev": {
     "phpunit/phpunit": "~4.8 || ~5.0"
